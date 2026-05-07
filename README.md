@@ -19,9 +19,6 @@ The server will start and listen for incoming HTTP requests.
 ## Features
 
 - Simple and straightforward HTTP server
-- Built with Node.js core libraries
+- Built with core Node.js
 - Minimal dependencies
 
-## License
-
-MIT
