@@ -8,6 +8,11 @@ const server = http.createServer((req, res) => {
         res.write('<h1>Welcome to the Home Page</h1>');
         res.end();
     }
+    if(req.url === '/source') {
+        res.writeHead(200, {'Content-Type': 'text/html'});
+        res.write('<h1>Welcome to the Source Page</h1>');
+        res.end();
+    }
 }) 
 
 const PORT = 8000;
